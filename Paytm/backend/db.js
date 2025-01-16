@@ -8,7 +8,7 @@ app = express();
 app.use(express.json());
 
 // database url
-mongoose.connect("mongodb+srv://admin:bsqJyWST0KLay1mk@cluster0.ba8sksh.mongodb.net/projects?readPreference=primary")
+mongoose.connect("Add your own URL Here")
 
 // user schema
 const userSchema = mongoose.Schema({
